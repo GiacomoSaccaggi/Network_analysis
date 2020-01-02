@@ -1,0 +1,204 @@
+---
+title: "Network analysis"
+author: "GIACOMO SACCAGGI"
+date: "Gennaio 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Caricamento dei dati
+
+
+```{r}
+library(readxl)
+library(igraph)
+dati <- read.csv("C:/Users/gieck/Desktop/file da caricare/from_to.csv")[,-1]
+info <- read.csv("C:/Users/gieck/Desktop/file da caricare/info.csv")[,-1]
+
+head(dati)
+
+info
+df<-data.frame(table(dati))
+d<-which(df$Freq==0)
+if(length(d)>0){df<-df[-d,]}
+
+
+```
+
+## Creazione network
+
+
+```{r}
+# create data:
+links <- data.frame(
+  source=df$From,
+  target=df$To,
+  importance=df$Freq
+)
+nodes <- data.frame(
+  name=info$Node,
+  eta=info$Age,
+  dep=info$Department,
+  title=info$Job
+)
+# Turn it into igraph object
+network <- graph_from_data_frame(d=links, vertices=nodes, directed=F) 
+network
+```
+
+
+
+
+## Degree (Grado)
+
+La misura più semplice di centralità in un social network è il grado. Esso è il modo più semplice e più comune di trovare nodi importanti. Il grado di un nodo è la somma dei bordi. Se, ad esempio, un nodo ha tre linee che si estendono da esso ad altri nodi, il suo grado è tre. 
+
+Esistono due tipi di centralità dei gradi: indegree e outdegree.
+
+- Indegree è il conteggio del numero totale di connessioni in entrata a un nodo. Nel linguaggio dell'amicizia, l'indegree può essere pensato come centralità della "popolarità". Il nodo è popolare perché molti altri nodi lo nominano come nodo con cui hanno un certo tipo di relazione.
+- Outdegree è il numero totale di connessioni in uscita da un nodo. Il livello esterno può essere considerato come il livello di gregarietà di un nodo. I nodi con livelli più alti hanno molte connessioni in uscita. Nei grafici diretti si possono distinguere indegree e outdegree, ma in un grafico non orientato (senza frecce) possiamo semplicemente misurare la centralità dei gradi.
+
+
+
+
+>centralization.degree(network, mode = c("all", "out", "in", "total"))
+
+```{r}
+
+degree_val<-centralization.degree(network);degree_val
+
+```
+
+
+
+## Closeness (Vicinanza)
+
+
+
+La seconda misura che tratteremo si chiama Closeness. Ci sono anche altri nomi per questo; a volte si chiama centralità dell'accesso. In poche parole, Closeness centrality cattura la distanza media dal nodo focale a tutti gli altri nodi del social network. La rappresentazione matematica della vicinanza è la seguente:
+
+
+$$ l_i = \frac{1}{n-1} \sum_j d_{i,j}  $$
+
+Stiamo provando a calcolare la vicinanza del nodo a tutti gli altri nodi della rete; quindi la Prossimità. Il numeratore è la somma di tutte le distanze a coppie tra il nodo i e tutti gli altri nodi j (escluso i). La somma delle distanze viene quindi divisa per il numero totale di nodi nella rete $n$ sottratto per 1 (per regolare il conteggio per escludere il nodo i). Ora abbiamo lontananza, che è la distanza media del nodo i da tutti gli altri nodi della rete. Prendere il reciproco ci rende vicini.
+
+$$ C_i = \frac{1}{l_i} = \frac{n-1}{\sum_j d_{i,j}} $$
+
+```{r}
+closeness_val<-centralization.closeness(network)
+```
+
+
+## Betweenness (intermediatezza [quanto uno è intermediario])
+
+E' forse una delle più potenti misure di centralità ed è strettamente correlata all'idea di buchi strutturali. La distanza intermedia può essere calcolata come:
+
+$$b_i = \sum_{s, t} w_{s,t}^{i} = \sum_{s, t} \frac{n_{s,t}^{i}}{n_{s,t}} $$
+
+Betweenness è la misura con cui si capisce se un nodo funge da ponte tra altri nodi della rete. Viene calcolato osservando tutte le coppie di nodi nella rete ed esaminando la frequenza con cui i, il nodo focale, esiste sui percorsi più brevi tra i nodi j e k.
+
+In termini piu semplici, è la misura in cui un nodo si trova su percorsi tra altri nodi. I nodi con un alto livello di intermittenza possono avere una notevole influenza all'interno di una rete in virtù del loro controllo sulle informazioni che passano tra gli altri. Sono anche quelli la cui rimozione dalla rete interromperà maggiormente le comunicazioni tra altri nodi perché si trovano sul maggior numero di percorsi seguiti dai messaggi.
+
+```{r}
+betweenness_val<-centralization.betweenness(network)
+```
+
+
+
+## Eigenvector(autovettori)
+
+Una naturale estensione della centralità dei gradi è la centralità degli autovettori. La centralità in gradi conferisce un punto di centralità per ogni collegamento ricevuto da un nodo. Ma non tutti i vertici sono equivalenti: alcuni sono più rilevanti di altri e, ragionevolmente, le approvazioni da nodi importanti contano di più. La tesi di centralità dell'autovettore recita:
+Un nodo è importante se è collegato da altri nodi importanti.
+La centralità degli autovettori differisce dalla centralità in gradi: un nodo che riceve molti collegamenti non ha necessariamente una elevata centralità degli autovettori (è possibile che tutti i linker abbiano una centralità degli autovettori bassa o nulla). Inoltre, un nodo con elevata centralità di autovettore non è necessariamente fortemente collegato (il nodo potrebbe avere pochi ma importanti linker).
+
+
+Sia $A = (a_{i, j})$ la matrice di adiacenza di un grafico. La centralità dell'autovettore $x_{i}$ del nodo $i$ è data da: $$x_i = \frac {1} {\lambda} \sum_k a_{k, i} \, x_k$$ 
+dove $\lambda \neq 0$ è una costante. In forma di matrice abbiamo: 
+$$\lambda x = x A$$
+
+Quindi il vettore di centralità $x$ è l'autovettore sinistro della matrice di adiacenza $A$ associato all'autovalore $\lambda$. È saggio scegliere $\lambda$ come autovalore più grande in valore assoluto della matrice $A$. In virtù del teorema di Perron-Frobenius, questa scelta garantisce la seguente proprietà desiderabile: se la matrice $A$ è irriducibile, o equivalentemente se il grafico è (fortemente) connesso, allora la soluzione di autovettore $x$ è sia unica che positiva. Lascia che $m(v)$ denoti la componente firmata della grandezza massima del vettore $v$. Se esiste più di un componente massimo, lascia che $m(v)$ sia il primo. Ad esempio, $m (-3,3,2) = -3$. Sia $x ^{(0)}$ un vettore arbitrario. Per $k \geq 1$:
+calcola ripetutamente $x ^{(k)} = x ^{(k-1)} A$;
+normalizzare $x ^{(k)} = x ^{(k)} / m (x ^{(k)})$;
+fino a raggiungere la precisione desiderata. Ne segue che $x ^{(k)}$ converge all'autovettore dominante di $A$ e $m (x ^{(k)})$ converge all'autovalore dominante di $A$. Se la matrice $A$ è scarsa, ogni prodotto a matrice vettoriale può essere eseguito in tempo lineare nella dimensione del grafico.
+
+
+Il metodo converge quando gli autovalori dominanti (il più grande) e quelli sub-dominanti (il secondo più grande) di $A$, rispettivamente indicati con $\lambda_1$ e $\lambda_2$, sono separati, ovvero sono diversi in valore assoluto, quindi quando $| \lambda_1 | > | \lambda_2 |$. Il tasso di convergenza è il tasso al quale $(\lambda_2 / \lambda_1) ^k$ va a $0$. Quindi, se l'autovalore secondario sub-dominante è piccolo rispetto a quello dominante, il metodo converge rapidamente.
+
+```{r}
+
+evcent_val<-centralization.evcent(network)
+
+```
+
+
+## Rappresentazione delle misure
+
+
+```{r}
+
+hist(closeness_val$res)
+hist(betweenness_val$res)
+hist(degree_val$res)
+hist(evcent_val$vector)
+
+
+pairs(~closeness_val$res+betweenness_val$res+degree_val$res+evcent_val$vector)
+
+```
+
+
+
+## Cluster
+
+
+```{r}
+
+scc<-clusters(network,"strong");scc$csize
+wcnet <- walktrap.community(network);wcnet$membership
+
+```
+
+
+
+
+
+## Rappresentazione grafica
+
+```{r}
+library(RColorBrewer)
+coul  <- brewer.pal(length(levels(as.factor(V(network)$dep))),"Accent") 
+
+# Create a vector of color
+my_color <- coul[as.numeric(as.factor(V(network)$dep))]
+
+# Plot
+plot(network, vertex.color=my_color, edge.width=E(network)$importance/3 ) # Per rimuovere testo: vertex.label=NA
+legend("bottomleft", legend=levels(as.factor(V(network)$dep))  , col = coul , bty = "n", pch=20 , pt.cex = 3, cex = 1.5, text.col=coul , horiz = FALSE, inset = c(0.1, 0.1))
+
+
+
+```
+
+
+
+
+
+## Rappresentazione grafica dinamica
+
+
+```{r}
+
+print("da fare")
+
+```
+
+
+
+
+
+
+
+
