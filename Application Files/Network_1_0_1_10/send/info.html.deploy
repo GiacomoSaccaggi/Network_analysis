@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<title>Titolo</title>
+ <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/413/413772.png" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147261423-1');
+</script>
+	
+<link rel="stylesheet" media="screen and (min-width:481px)" href="cv.css">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='css2.css' rel='stylesheet' type='text/css'>
+    <link href='css1.css' rel='stylesheet' type='text/css'>
+<script async src="jsg1.js"></script>
+<script async src="jsg2.js"></script>
+<script async src="jsg3.js"></script>
+
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+   
+
+<meta charset="utf-8"/>
+</head>
+
+<body>
+
+    
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('sfondo.png')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h2>Email network analysis</h2>
+                        <hr class="small">
+                        <h5>Understand the connections between users</h5>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+    
+           <h1 class="heading-main text-center">How to Export MBOX from Gmail Using Google Takeout</h1>
+          <div class="row">
+              <div class="visible-sm-center-block">
+            <p class="custom">&nbsp;</p>
+			<p class="custom">Google’s Gmail is used widely by the web users as it is a popular web mail and is integrated with the Google support & services. In the past, users wanted to take the data of their mailbox to other desktop mail clients across various platforms so that the customization could be done. But, in 2013 only Google allowed the users to take their data of Gmail by downloading the compressed file. The data can be archived now in the compressed file having MBOX format. This feature is not less than a boon for users trying to export Gmail emails to MBOX file.</p>
+			<p class="custom">This service of Google is commonly known as Google Takeout and it allows a user to export not only Gmail data but also other Google products such as Hangouts, Drive, Youtube, etc. Users can choose the category of data they wish to export and get the data items in standard file format such as MBOX for emails. The data exported is only associated with the used Gmail account.</p>
+			<h2 class="heading">How to Export MBOX from Gmail?</h2>
+			<p class="custom">The data from Gmail can be archived in a MBOX file type. Follow the below steps to download the copy of your Gmail mailbox in the compressed MBOX file:</p>
+			<ol class="custom">
+			<li>Visit the "https://takeout.google.com/settings/takeout/custom/gmail" download your data (Google Takeout) page.</li>
+			<li>“Sign in” to your Gmail account.</li>
+			<li>The following screen will open with two available options. The MBOX format cannot be changed, however the option to include data can be customized.</li>
+			<img src="export-gmail-emails-1.png" alt="google takeout interface" class="img-responsive">
+			<li>Click “All Mail data Included” to include all your emails in the exported MBOX file.</li>
+			<img src="export-gmail-emails-2.png" alt="include mail data" class="img-responsive">
+			<li>For exporting data of other Google products, users can click on the "Show more products" option. Whatever the choice, hit the "Next Step" button to export Gmail emails to MBOX.</li>
+			<img src="export-gmail-emails-3.png" alt="show more products" class="img-responsive">
+			<li>Now, select the "frequency" of data export along with "file type" and "file size". The default options are the best suited options, so a user can leave them like that.</li>
+			<img src="export-gmail-emails-4.png" alt="select file type and size" class="img-responsive">
+			<li>Now click on the "Create Export" button to proceed to the "Export progress" tab.</li>
+			<img src="export-gmail-emails-5.png" alt="export progress" class="img-responsive">
+			<li>Google starts the exporting process and the total conversion time depends upon the size of the mailbox. When it gets completed, an email is sent to the user along with the download link.</li>
+			<img src="export-gmail-emails-6.png" alt="export mbox from gmail" class="img-responsive">
+			</ol>
+			<p class="custom">The user can now download &amp; export MBOX from Gmail account. The downloaded file is in compressed state (.zip file) and after extraction the exported MBOX from Gmail contains all mails of the user in a single MBOX file. There are chances of creation of multiple MBOX files if the user mailbox is too large in size.</p>
+			<p class="custom">This MBOX file is supported by most email clients like <a href="what-is-thunderbird-application.html" target="_blank">Mozilla Thunderbird</a>, Apple Mail, <a href="opera-mail-everything-you-need-to-know.html" target="_blank">Opera Mail</a> etc. and can be imported in them easily.</p>
+			<p class="custom">This is the complete process of exporting MBOX from Gmail account. This process can take days to complete if the mailbox size is too large. However, you will most probably get the download link. There is also an option to automatically archive the Gmail mailbox every 2 month and get the download link delivered to the Gmail account. But that’s all up to the user’s requirements.</p>
+			<h3 class="heading">Encountering Some Issues?</h3>
+			<div class="row">
+			<div class="col-lg-6">
+			<p class="custom"><strong>Unable to Access Gmail MBOX file In Outlook</strong> – <br/>MS Outlook does not support importing of MBOX file of any kind. This holds true for all versions of Outlook irrespective of the operating system. In such situations, it must be converted to PST format. You can use <strong>MBOX to Outlook Converter</strong> for this.</p>
+			<p class="text-center">
+			</div>
+			<div class="col-lg-6">
+			<p class="custom"><strong>Google Takeout Fails Everytime / Google Takeout Backup Limit Exceeded</strong>- <br/>If your Google Takeout process is failing everytime, you could use a <strong>Gmail Backup software</strong>. This is also applicable if you have reached the limit of exporting MBOX from Gmail and the Takeout feature is no longer available for you.</p>
+			<p class="text-center">
+			</div>
+			</div>
+
+
+
+  </div>
+
+
+   <!-- Footer -->
+    <footer>
+       <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+                    <p class="copyright text-muted">Copyright &copy; GiacomoSaccaggi</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
