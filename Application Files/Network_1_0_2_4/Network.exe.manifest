@@ -1,0 +1,2417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Network.exe" version="1.0.2.4" publicKeyToken="94fde86f99b38258" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="send\logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Network" version="1.0.0.0" publicKeyToken="7689E4673469D04F" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Network.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opzioni manifesto di Controllo dell'account utente
+             Per modificare il livello di Controllo dell'account utente di Windows, sostituire il 
+             nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Se si specifica l'elemento requestedExecutionLevel, la funzionalità Virtualizzazione file system e registro di sistema verrà disabilitata. 
+            Rimuovere questo elemento se l'applicazione richiede questa virtualizzazione per
+            compatibilità con le versioni precedenti.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Network.exe" size="188336">
+      <assemblyIdentity name="Network" version="1.0.0.0" publicKeyToken="7689E4673469D04F" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>y6uE5heN7JHewBan2yzfoLC7PqE89mAAyXkjYUZf4Ko=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\Network.resources.dll" size="48640">
+      <assemblyIdentity name="Network.resources" version="1.0.0.0" publicKeyToken="7689E4673469D04F" language="en" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aDSdcuD1fQCRnuYpopy2JpCdYWmjbjNFZ/3rl9v5Zo0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Network.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\abbinamento_colori_63.jpg" size="18948">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8ZSbXOzzkpjQP/NDjzwnL4qllAyPHQEqfqUvI7d0w1s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\about.html" size="2977">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Zmnye1arGGS303b1Qfcs6SW1aGiInvta4blHRn/YAtU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\Aggiornamento.exe" size="36958720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iZKK8x5NSUsshSdCvoZOoH2IsWfeuhnZ9iDi1/+E6NQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\call.png" size="19212">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8+0vKTnin/QC3RD7pJ6ZXe9IZJgyh4YRdPde8l3RN50=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\css\clean-blog.css" size="9144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jpF5yGTmVBEGKqMlCVuYaKek1eObmCqP71618rutiDg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\css\clean-blog.min.css" size="7082">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3MxSrB5rdfDoR2IEICxjFVHuTrhFz0AyP7b0+TlwhO4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\css1.css" size="24443">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rt1KvPEENM3VdYjiL9+qAknPttGZefhbBgCsK8me8Vk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\css2.css" size="6791">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M+G7EYPZFBxOqLPYkrXyl/myYqqUlx1mrI9RoOSIVHk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\cv.css" size="7007">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>omhyqzbaRoB57oiIQlqUVcoq9vZaZG4JJfXdMseUfV4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\emailid.png" size="31456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZzTylYbhf2mmh+HzYHM+oeU1uIc3oaeE+e+GjAlVP6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\email-msgs.png" size="38891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>58sfsM1cQo5yAzmEK3j49D3CQL/8O0djkqzIAHTzrYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\export-gmail-emails-1.png" size="37402">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lrQzpKkrlocq3/QiApOXLslpBxU2lKbjADv6AamxSMA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\export-gmail-emails-2.png" size="29014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ar1hJADx8zGh3CmWtZwfROq3V4S48favZAxjH+KGJhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\export-gmail-emails-3.png" size="37402">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lrQzpKkrlocq3/QiApOXLslpBxU2lKbjADv6AamxSMA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\export-gmail-emails-4.png" size="36932">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8P6bIIq2GIJ2Q0VoqANFAIqGZwq2Tt7byQktQ44W8to=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\export-gmail-emails-5.png" size="39573">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AzcxnQcxww1iDTdfrlZNht66vbnFCY7u/MLh8uJk5Po=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\export-gmail-emails-6.png" size="43374">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kEvKjOichtNQPGaq99q1JtfPsDqjSGuJBOoIMjPmXPU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\hello.txt" size="33">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bNr3YskRMVdE/V2ZBYpK3iohqHIYxJEN6ajw2T7ZXVs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\home.html" size="3792">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>25xoUSbWFDxnaJrGfmqZbo+zeDZ/8/MSTbTv2a+qaO8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\info.html" size="7673">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x4Wai22BlDGnV5uP06VPZ49XcajdEJeRtQWaB04epRU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\jquery-1.js" size="93637">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>um7aeUWrjX5Xs0zFo90pL6Lkxgpc7Xkjbs8ang8MLTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\jsg1.js" size="75122">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gtdglY2Bo7hb4t3HNbD6r7idyo9bOkFNbhwKTKQemT8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\jsg2.js" size="2435">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j+kzLQs+jwIgdQTkFludM/D+SSI/qaxpDfqpEDRPdXA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\jsg3.js" size="4381">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ObSLhlrDP9g294EMe8L1EQDeIZoN2NFuHX27HBPq/vQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\logo.ico" size="105955">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sdjv8Dc2YwKm8AOcBVbo/oQiac0Vo8HXzxGOL1pkYJY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\logo.png" size="1623">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aZjCwlmq80HXrzLgYo+HPxFdHbfIGYOMgh+VXJIw0hg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\message_body.txt" size="0">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\mobile.css" size="6648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5+Xvq1/Pycxn2Wu2ftsHsb3qJUNYts3Wpj48D4hNcyE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\plugins.js" size="1640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wYsu3EzW7hlniZBIqpsQpa2JbK/CoPbD8Y3jTfUuFjY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\Portable Python-3.7.5 x64.exe" size="34675150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vHV+j88Dl6+t4kKesmSnVkdtVfcHmVkUEqdXXYRFWuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\print.css" size="798">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O18KzQg1YRqn0V2GUzx1vP5C3E5niJ/JeFWYHQdCds0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\PyScripter\PyProject.ico" size="7886">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6H+iAAyWu6xv1YpKq3R5W10nUvCle034uA48qJ5hOpc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\PyScripter\PyScripter.exe" size="16985088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DrZFsEj0k4SdX50eapRuqz/2r17qwF4zt+fJd5T9Xws=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\DLLs\libcrypto-1_1.dll" size="3381792">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AShmto9FjsIEubzgZ6+PSkiIYHdOfheXPEnlg7Urgo0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\DLLs\libssl-1_1.dll" size="686112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HOe6megXwcLXG8iKG91vytgqpcPlGbkevVbJbyLjVDs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\DLLs\py.ico" size="75809">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FQxHD5lDuAa0QxLv3shXVfIvjX1Ssx+Tqa88Q+hic4E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\DLLs\pyc.ico" size="78396">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/aKKc0eIo/F1y2rtTa618F8OSfaicszSBRujN/eztC8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\DLLs\pyd.ico" size="83351">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xOwYRaVySyqDUA872UA1Xi/ibvxrT+bCCDZTWaYTDaE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\DLLs\sqlite3.dll" size="1272848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SKWJE0Ka9Ic5D0v3uxxnkKCpmA7Ma3p4I4zWhfiiuq0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\DLLs\tcl86t.dll" size="1705120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9lDWvDIbzaP8OsPew6xORz+wt7aLbJSFgbz8VGU+Z2g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\DLLs\tk86t.dll" size="1468064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Gm0Icb4vpxU94ivgCKIKUle3IWV+bUsk2osflANF0NU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\abstract.h" size="41913">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9mRPxuuYRx5TIVyimXAazOCK+HU9oBj+/q1dORwdIY8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\accu.h" size="1053">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PGl2MHTvCLoatV5oBDSPB5RmJNBHWQ/rUNpGmaoSU/s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\asdl.h" size="1259">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xv96y//bZyGhxQSCoAA+X11SGtAKK8w0K9NcJt7sZ8s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\ast.h" size="670">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WOUzXuV1jNkQPO/65j0iDYac1/DHK8hP51pYqIk2cyw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\bitset.h" size="842">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xyuEApI2jltRt/84tb09Z66oB4JLfpns6nVOl7Mjavo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\bltinmodule.h" size="278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m8fU9lRq04cViAII6+AEYWzLdkEwCbZkvY/h0+ugb1k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\boolobject.h" size="920">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7xS9fHQUElNhL8l1pjzNFs4R4N+xgc8/pZBRHgwmenU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\bytearrayobject.h" size="2176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9dlS6acYXzVufxNxXUm0nGxJH1AaYm6KgkOKKLQoGJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\bytes_methods.h" size="3370">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>79lf3q9SGlzG8q4fqxZ8WMJwTcU6W7AI4gD/Bjj5uA8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\bytesobject.h" size="8717">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>P0L/xfil32Iyu8r71eIsYB+Lh5p9fU0rf+IZoymAZvg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\cellobject.h" size="742">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mRY54fFJo4hqAV97Fo1NNp0RQyfMSQYmndaX5zuUHc8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\ceval.h" size="8956">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>L8iVktP70b/+FoI83C4UNi/zoIiv5nwO64VqU1cYW2o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\classobject.h" size="1737">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zTjDCmQvMtnv1n7TMnI6qXJ3LBTTT/W0BxadagvF8Ok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\code.h" size="6222">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KlGPs7thYTtCPherROLWrWEMcThDC4pszkJ6Ds3eUn0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\codecs.h" size="7033">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sDdJIqtiXn50TAsSfSm9GxFPAyd2/fc0ub0ktdz57NI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\compile.h" size="3039">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jEfqpZSDkAGSEJ9B84REU+7BObWXTlH3uNIRXrHktaE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\complexobject.h" size="1876">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wYSjTsCx3YuQ7hvsdJrr+UXV7JNUZ7C0AY3/+salDv0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\context.h" size="2098">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XnYr5f7qE0Ez6M2PNsTn8G2mqBRIKhfsB6VLP87fGAY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\datetime.h" size="10121">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZP4fzzaDavNVXbrw0a26yIOX5StGw+BbRoReEyASxHY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\descrobject.h" size="3245">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aN+yDUF2w/So8Yqa7wNqywLDmyjIjRyFRHaJr/7Rsh4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\dictobject.h" size="7502">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QnTKSxRFZNryL8UqEtaxB0MKSuvObR4zWBUnQNjVtmg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\dtoa.h" size="477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5gaQ4h0cLV0XxiezubV9PsDe+oGamiVylKbUeH3Qtcg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\dynamic_annotations.h" size="22968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>W0rbtYmCW+IFhCJQjpm9ZkZg5yQPU9GXHC7BgdpKUBw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\enumobject.h" size="270">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RpyKe7yopn/Re8coodbUIlxMBWZHV3S13rZVRi8Fhlk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\errcode.h" size="1733">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oQv8IKk4ivkPh1tS3Ly8AuldzO1hvDuK8+oXfkixg90=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\eval.h" size="1246">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PKFfzbAqedKA9rj8uMIXCYMJyYhwEHfGhY7njYCbghs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\fileobject.h" size="1866">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n3uM2UQKA3/vB5GQzDzrjJG2n74qvkVvyaaBKXCTGh0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\fileutils.h" size="4735">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/2UX0kNfgWf+4S3KMW+I7zjIujfpKi2SLSlU3C/wwY8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\floatobject.h" size="4924">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TIJVdGJrF3mCTDMbeUcqYcMMODrZR53HYncN9afjmpE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\frameobject.h" size="3411">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3ScAEdB+kEdv2kRZLItVrbCPt8hbh0nV+tJaZgorbpk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\funcobject.h" size="4281">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1DoEH/aLwgyfF+tj2oqPo/205JfOUZw3/mmJv+xd3wI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\genobject.h" size="3751">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4Ma2/emRz/xrrQ3aoW/ai8fIyHaPI6rD3QUcDSfc2pw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\graminit.h" size="2081">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tPr47F2xxuEC1S8W/QU6KlRL4BvOm4ghYI3j95+F1IE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\grammar.h" size="2413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DF1H0wtUHLW202anvdzmlOEVfV7QYfuq1bvBHZJ6UWs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\import.h" size="5128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gxE2JSyR24iGJRlwKvXUp608+00g+q2D2BAxNVY2zCY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\ceval.h" size="1490">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MGmSal5qa7bDwcrRjZLUJU7NUKxVKrK4vk3uXGT/zhM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\condvar.h" size="2817">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eiWYAL7B/vnRa8AS2TsYdSihbr4zJ7FNCrg/wydt+RE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\context.h" size="742">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CeA4VRxkGZNaFfa6UcOtrR49OdXYL0MhdG/U9yXSEj4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\gil.h" size="1478">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LGsCHoKKRUrd6ogFzV6le0YlJvcCB8c218YRS/3ELWw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\hamt.h" size="3159">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>q2m1boOhRMnWoWy7+dLzqyghF/D9xBoOpX5AVO63ZiI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\hash.h" size="129">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5oCjOF7LErZpGM2UI4DKgfXOLbaq1l+MP+M2EyJ/OG4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\import.h" size="120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lmrl5d1YlCdKzIvfBDt9I4MF2WqbVy840ovvXL1GTeY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\mem.h" size="7006">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YA+ON3GOuvm3orOG8UpHeks5mdNzoPm2O9vwgcJ4GxM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\pygetopt.h" size="477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0WY5XIPU0EVVt9GUTyXfW7kSCjl3r4OGUPwvKXe8lug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\pystate.h" size="4186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E9474wI8j/G2SXzl+/Ec3KzDD4iRFb+cqafmXzPrvUc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\internal\warnings.h" size="529">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BftvtvTRqN0rzFAgtyFR67CnUJEoVNQ0KC9H3SO/hsk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\intrcheck.h" size="894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t84lI2vdF0cx7DWXK1b7qgzWXDk57CDzJnNagUt+S3A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\iterobject.h" size="592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qENnPs5EXmhTqvHtSuZJAWRgcTWsZhvABrjSRb9lwX0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\listobject.h" size="3008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/N9fBNwgHfc/rSbREpBWc08PSe6MjSALohonzazGmi0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\longintrepr.h" size="3898">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+83tSSyQAjhKj1DSYupQKneuLudOKbnjQD+gOtt8Xkc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\longobject.h" size="8814">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eVnBt/mWmZPIoEzsorgEtHTsu+E9JijVSfehcLyoRtI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\marshal.h" size="831">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>G9YUd73J7cAhGD3H371FyHKnNZ0n1c2Zqtlhz7m7+nU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\memoryobject.h" size="2837">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oxM7+mIK7s3kkagTKPxOQG9VOEO9hK/jhIeJuI3zZSg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\metagrammar.h" size="271">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Nx9Cenedcrp63YZBL438plACcFlI3rqdCdKmklShLUY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\methodobject.h" size="4654">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pLvpwq8E8xXvOctYlXMWJWrpWQJbQzAG65+Q5cCJnds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\modsupport.h" size="8788">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2PqHBhsDncThpeDMJz9/MHeaXGnwWYNhmmwCC6u4BvM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\moduleobject.h" size="2393">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RrAqQog9nicOAwcAR/9TBNTSCL0DaZtGXDUnu7LKwYc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\namespaceobject.h" size="368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mls1SaCp+fEVIIcXuDc3pOoUoe9FP4mDcV1UDzXHSvc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\node.h" size="1157">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>atonjhKJVwlIfPXqFNyfUP7Gw83z1KVtZ+hwSL8H5U0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\object.h" size="42948">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>deS04LTGsszqA3hBvGyt2Kgz+jZjKTDp6U8tXy4D0Ws=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\objimpl.h" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>K/uDQDEaG7QQYMWoVmVzYJLYfeCW222bHjuagoJJZGM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\odictobject.h" size="1323">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wzTrvP6M9i6SqVFlommjLF9ZvQpN4hmQgHAcZumDOus=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\opcode.h" size="5256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>trFs5OO/iedXsnRNJOW3Q5CclckFkZ26CsiVjT1ntvA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\osdefs.h" size="738">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GHL06Jn02Qu6XVqSHmH7ybFm5WRRqnq2HZ4j124PSqA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\osmodule.h" size="308">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w8+euNcJ+QMuhuns798qJv389fOgr7bDobRw6Ol9ags=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\parsetok.h" size="3013">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2gRS8LWmPEQk2rqY5+jzaEgJI1jwG0WHH/ZVgrNjfvs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\patchlevel.h" size="1332">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eMacQncv7QPa7UjoizH2MTVORYKfffi3AKHljuNyQQc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pgen.h" size="271">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PxkfhQsgaACgLYMd9pxgvkhrWlkLo3Rqp0w/0yb0Gb0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pgenheaders.h" size="1265">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mUixmhhlMegNdTZZCgd/aZGqt6ypdhmsv0NFq878dnk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\py_curses.h" size="4221">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>H02C0yY105fmE96SxkWdgMaUjUXy47bdf9Hfjo/GfC0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pyarena.h" size="2808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JGWNqaFFtbs/AdtQNIGYC5AjVCYSn6USs0zuDk2/g0k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pyatomic.h" size="16656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+SW7D8p2JiKumMlveLE0gCPQjm8qcy1A165BaYW7Sb0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pycapsule.h" size="1785">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FC9RtzDdtuY/WphCaKkwigSZYIx4do6josNsdIFXPmg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pyconfig.h" size="20736">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EMo9YCPZ9kAO+a4iX6DCsYnp8cXeCJoioC6F6aEEjBM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pyctype.h" size="1353">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0WVF9SgJh7xy3mxRzF3wfXiygd/oSrtxGrNL4ASfkuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pydebug.h" size="1254">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rF902x4j4KUYyyFNo7YvA2fwxDKzi76y4mTpDA/9HT4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pydtrace.h" size="2342">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t5r+dUy449WqxDMcWKdy+kKlbnzRNbYM5PBbUeOH6Ds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pyerrors.h" size="17873">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HxIxYPkidGBFI13Ug4V/4ZV/sGZ+CBrxemL9dHOq4Ro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pyexpat.h" size="2505">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Uec/GHQyIzHY0UWu83YQMZJxwCTDbWWSHqUr/ae3DfA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pyfpe.h" size="353">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1gd3xP9qfzCijNGPTNzRn7IsVY9Lh9+ARqBg6TACS48=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pyhash.h" size="4284">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qemgnwghObLUFz0UqUqlBNk99mN/LI2t14Bc7QJeAyc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pylifecycle.h" size="8018">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>srGgTNS/gYyqd3PR35cTk9pjomjrgpOqbpD9IKegPQA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pymacconfig.h" size="3091">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y5vRgD9XpKEpO3KQWpBL4IVT/5zQQO57I75B2Q5Mvc8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pymacro.h" size="3635">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9DmhIsncSr2L/Ja/H8rmNZEP+kJXPoiNIfXCJWc040A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pymath.h" size="8542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O8kBf3jKvtlKa6zl1+RTgLuATIct/Og52lA9/FQ33CY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pymem.h" size="9237">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C6kjJtg7YBKPDJ7ovwxFzdthexIpvsmJospADIjygJI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pyport.h" size="29028">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LRdkfdbbU/3nBkwPGg/IkRssEqDC7l5O4yB4qcR6YVs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pystate.h" size="16712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F9lUXoIr1TZCz1c4bDJdfy2XYFq3Jvnhs4D8bU73m0g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pystrcmp.h" size="459">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LdI7b7O3p/72KzMXCnIV8LaPLN1u26VUjQ1WPFsSQFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pystrhex.h" size="514">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wGlzti5XtJg+k6/PdzCJDexk4lLv5VxeEKcSHuPDzb0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pystrtod.h" size="1528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bikArFKulqlJSLuHSCRZdxMrVrYHrmnqyEIaTnXyK90=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\Python.h" size="3713">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U5ZjsPiCrO/vV/1YihzKSUS2u0R2aUXcqRW5A4fUxlU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\Python-ast.h" size="22439">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TYNULXpZv/TPUHQXCncLI9Mwyw+WLYrsrPjgADmcaqM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pythonrun.h" size="6385">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j3oRIQxoTpq/g8pnZZU7EScP8L6bA5j6ExDkZZI4mKc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pythread.h" size="5487">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KFHphqMSMhsG+2BMpIZMViQ+7WOEe3pxNYkMpU3w8xk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\pytime.h" size="9172">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dzddgZpNjcrBt2ty4Ndk4U1x3opdi9keQKs0iQsNbes=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\rangeobject.h" size="656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yY5BwJ1+XZufzfjrTY2F1aFjIHbj+pkr1XQPxDH/m+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\setobject.h" size="3470">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/KVgS3JYUXi9j7gTcNmcUqaPjzJ0eA6xF+WAMssILwA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\sliceobject.h" size="2543">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DBe9Pr3LQeaM4XhGlA17/AnNKLRTSlVb/bhqQItgsl4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\structmember.h" size="2104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2lzpvHp1JICBJNnTfVZJX0jWGeuTLEE68VLY814eTWY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\structseq.h" size="1426">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZUc64aMhwJCCr2xQY/DW08L586uCb2fsGNthc7A9xcU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\symtable.h" size="5046">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gsZc0oRmRE0IkpuIo6iQHyspDkYiCdfCf1VUO3+d9o4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\sysmodule.h" size="1559">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZPFH2njpNIyTT9oxWK5kwMCEJojUhBDfcOzwmQyBqp8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\token.h" size="2572">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z8CyEVTXtQXMYanvzF75lrNtaIo+YXfWK6hfMo0i6VM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\traceback.h" size="3763">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MFevKsfsKtnV6sItZA4MSCJUAW78FnU574Orm0t8AXY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\tupleobject.h" size="2544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C7REsaCh3NzFwOChkWpIGZ7ufY2Wl2LPgDEBiCz9G38=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\typeslots.h" size="2338">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5ZdlMOOlxinU8MRVjxaFDLoLpUTb+Zs8RIaPiYhZI40=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\ucnhash.h" size="1092">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UDc6eBL5kxKmSuRP3whwmnPJRA5JdgqOF5hj1ZzPzsU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\unicodeobject.h" size="84612">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Xn71lqeOaxGMpS1Gp4uzjPlnggA5CfEwEXVlPXlpT7o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\warnings.h" size="1843">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hT5ufZAwSbKQIhlw8onciLG1hsZtZLSQXRMgw7++1cA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\include\weakrefobject.h" size="2952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+751uMxIQVp1eTt+xJ23gezdp7FB0StIZIpxC3MUHdE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Lib\Analisi3.exe" size="8346624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d0m8EUc2waqUk6ernjU8+itbIDCBAjIkJoYttwrZcXQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Lib\site-packages\Analisi1.exe" size="16159744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0hFZrzMTfjLQs6VXL/7zQ0+jvLEtIUlPCWXyruM2nK4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Lib\site-packages\Analisi2.exe" size="9804800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3XdCyQv8eeVF9ncNsUGWDURIHPE5plpcUE207zGxmNc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\LICENSE.txt" size="30188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JehIHq+gpRz6hXt3u4tfOcDdvVkq4iNxI0cYUYSwAFE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\NEWS.txt" size="711270">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>csP0KmDkAvqq7muP9NNOO1NUphgCFAnmUcJIGVQJ+T8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\python.exe" size="99856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B65sX9ZV+p+dhhOLfY/WNhokGMNZvwzlXbmobOMVdeE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\python3.dll" size="58896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7nA1PNb5yjBkQUm1awdZ3iGeg6h9lyObp1BI4sCbh9Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\python37.dll" size="3748880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EvJr60Od341W51RLBqBnXV2mZwwC+PnO3nqtHecesRY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\pythonw.exe" size="98320">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EoEAfuqPaJZ6zPfmuNu0Jz76cRVv+AxP2qzSB7uv3rk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Scripts\easy_install.exe" size="103321">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ynrvoz5iJzA4ftfK8WCFMZxU/hKuKaKNzjx8g1PgtR4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Scripts\easy_install-3.7.exe" size="103321">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ynrvoz5iJzA4ftfK8WCFMZxU/hKuKaKNzjx8g1PgtR4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Scripts\f2py.exe" size="103324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/z8n11k4QnHpeMPGzAMWhbf1RJdqrivsG9LxqDmQ1J4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Scripts\pip.exe" size="103303">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zHgpnuMWMfOeZK8y65rz/fUyxmnRvQQB6OiWhN6jzZM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Scripts\pip3.7.exe" size="103303">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zHgpnuMWMfOeZK8y65rz/fUyxmnRvQQB6OiWhN6jzZM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Scripts\pip3.exe" size="103303">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zHgpnuMWMfOeZK8y65rz/fUyxmnRvQQB6OiWhN6jzZM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\3d_drawing\README.txt" size="22">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s5+t1C9VR7xuGe6I6LoAHyLZypgxt6nacxqhlFV/cq0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\advanced\README.txt" size="18">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7S93QKoAWQ1HDSf3la0FZhrjib3VIaEchTfMKMd+YYw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\algorithms\README.txt" size="22">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xn+/KUQ8ego4sNw2nrr4axL38uzGmSgO1jiK3kC0/X4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\basic\README.txt" size="12">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SZoFiP7cQAXsOc0zCWRT7NsGznY1aiAk+0zD8dXsaPY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\drawing\README.txt" size="16">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DoWMcDCC/TTjREqBqc/YMatITP1/2lHp7Rv5IxrM2bA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\graph\README.txt" size="12">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>etRvcBQG30Fb6dIiQZaYHbnl1a6Tz/peks4MqXKwRhg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\javascript\force\force.css" size="177">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XbrVk+j2Ggp/UfOVr97fKDZ0F4L+3zdo58EuBFaffGs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\javascript\force\force.html" size="366">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DHwaOURIZRzSb0ysbEIMa3/WitMOyYRE4QF6ocXHuHg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\javascript\force\force.js" size="2062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zODo5RcDQJuag1qsm8d/rsWv+llg7iue79uLMRXG6TY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\javascript\force\README.txt" size="247">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2oodFm23umxJHT2aQqmMWbirpk5a/W9ih82sdIo7+iw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\javascript\README.txt" size="22">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p96J2RxwjMdUp1WlfH0v7jQygOehHjt4DTPZVQl9Q0c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\jit\README.txt" size="8">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a050aaqoJxy1HV35rpL3mtDKl7vd7Lam6UJktcThRRQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\pygraphviz\README.txt" size="22">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ig7uRAaEMpAJvKN+cOWVe9T+NPllF8EEfMjtcSkfBjU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\README.txt" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cxGi297lSDVdFnX0z6bWcZFbou5g5+Qxp42DUkrdGCk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\examples\subclass\README.txt" size="18">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9DLXetYO600sLeOY/fFc8Msnli8+qQrVbGB2f5gP20g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\LICENSE.txt" size="1780">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9CH3xdMAIqomgXSXbkPkiLhWrZU/Ms3RPwZ1YwmW2MA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\share\doc\networkx-2.4\requirements.txt" size="53">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YKgB6QwXjePGLyUM+t5zrdaDDecOAv/dqIAAUvZDvsg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\dde1.4\tcldde14.dll" size="23552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bYGMhKt4vzcKFpN9an7+GyIqa/Lw3a1lSOopmtwpj2M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\nmake\nmakehlp.c" size="21167">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KYuvKm2JQN86qfdWlqCpAddixMrWc4Ws9hVPBEN+ub8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\reg1.3\tclreg13.dll" size="20992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EyFmAwAciE2KLmebGHasTWE7SxyfhqIqOAZrlx1ojr0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\act_fold.gif" size="90">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SGqLccD5JBpb/ysnXo8BE0kHa/T913ftFFjrBQwGM7s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\file.gif" size="76">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GtL7xgTsYBFoSVdLxNw3H4y1eW4UVx6iaEyLq5m0xGc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\folder.gif" size="79">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TgOi/jzYpdZOuSTRVh/4OPRzwQw9jZf73mdi86G0RhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\info.gif" size="159">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sAeoxYKZE4ixKJGotGRF3mgJ721SqqQ7+NlGrI+fbUM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\minus.gif" size="57">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QB5BuZ2MjS6vpBVxuNMhqkGaTKergTb74bCtuGCE06Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\minusarm.gif" size="59">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z+hn4YxCeqiNXiQEoBqiLQQiEiIugwSyUnWkAOZQ0dg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\no_entry.gif" size="176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WstnLZf0rfSujTGzlooaF9+mbDXXSh2iYvFMEmFdP1Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\openfold.gif" size="84">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>safoo0Gh95XwiQEW9oNo/0uw8eDOc2kXGdwk45J0Y60=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\plus.gif" size="58">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FupA/tjBK79ksHK6z2scjKgM4m4I/ueGC5jMnM5E+mQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\plusarm.gif" size="60">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b8QJiCbKbgLtC+QGABSGHklJE+ZoSr7GOwItYMHHMBE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\srcfile.gif" size="79">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Nst8ylomLHeTe0W57T6sPKzIUYHBM8RZE/rHSBIhGX0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\textfile.gif" size="79">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O1On2pROd9AOuxs1Ls5rblBXLgIiZ4CHuGuxY6OWkVA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\bitmaps\warning.gif" size="180">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SFWuSUacLJqiOFZNQcV+dczUo5EVayc6BCCWOCzTxzI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\demos\bitmaps\tix.gif" size="11042">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2yI9CIsLQep3YU7H+/zeETL2iy4cPkDHwYcaVB32Jaw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\pref\Bisque.cs" size="1028">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dM4FlZR0bVCn/wEEkn7wDrsxvNLcecDDpR+eEfM8i6Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\pref\Blue.cs" size="1045">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9FNXJLQ7VDnTuyH2kEHDpwqn+fv9I9yUIeC1tV+ZlrM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\pref\Gray.cs" size="1045">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zFpK4J761+IMJppG4xq/n7heqrKh4bVz43F/lx9LMyU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\pref\SGIGray.cs" size="1026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LvFrlViHQfyiWBwULOWLAAeBvvIqysaFhf++vvEkxE0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\pref\TixGray.cs" size="1026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FJU47Lu9a2F51GV5Rrcev457FeW5vEuir2g5lTbLa+8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\pref\TK.cs" size="1024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FvlPPYWRSB7PM7Mz64PTzWI3ks8Kkjin66UqrAOvRg4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\pref\TkWin.cs" size="2246">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TW9jciam+sbrGA1K7QgSvtLKwMylTZKgBFTIlCoAewI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\pref\WmDefault.cs" size="1452">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QJHHC0flAUsokh3MYZlQP8yz0XWBUjopCuTGOjUlI6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\pref\WmDefault.txt" size="4324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>83oF1rLb74831RVmp2QCIAFNIJzFjfNU3tmDA7RhMIQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tix8.4.3\tix84.dll" size="370176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bwLb5TE9CBu9tbmby2OVUZrlbElL6TijlJa7pXQK2ws=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\demos\images\earth.gif" size="51712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iK964k/QjV6xROk4pDgdKGOLxQ0VyOXz4wynOw+6lh8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\demos\images\earthmenu.png" size="8157">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m/jZYBYDnX/bL/xQZ0NyRjanDtWSUZmqtkyiCCCWO94=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\demos\images\earthris.gif" size="6343">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wtpHPlXYMXvR+YNjittym/8UYd5ZDXb5nYs0MMceD24=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\demos\images\ouster.png" size="54257">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ov41Tfywm57rSIEo9KwLSYdm+vSovs9lu813m9ucTI8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\demos\images\tcllogo.gif" size="2341">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cvazTTyPQk/wopCnk/z780/VYwqRbNAuCl3aAUS1lX8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\images\logo100.gif" size="2341">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cvazTTyPQk/wopCnk/z780/VYwqRbNAuCl3aAUS1lX8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\images\logo64.gif" size="1670">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E4wkA4IwTzUDg7Au1WxpEDqUMcBUTrHsXc197HpVXdk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\images\logoLarge.gif" size="11000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D0BHZNB6auLvnh4OjqrCeLfUiNYc8cCEFG8vM7SF8u0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\images\logoMed.gif" size="3889">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TQvTIoq0zD5RWfQze+lp7HtzNOJlyZt2M+Pa88P8+2I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\images\pwrdLogo100.gif" size="1615">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vMDmRYJJQz6MumxYEit8DvqVV8vI+1+Tku7V0lefxws=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\images\pwrdLogo150.gif" size="2489">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X8JcMK7nZHfxxOkikxzIBoI98FlSVYP/VwVwXZ6RPBw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\images\pwrdLogo175.gif" size="2981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YoZulVAcQ2symhVDI1V0PG79ZKN8+2W87ORlq2Ps8kA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\images\pwrdLogo200.gif" size="3491">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>utkRY4Y0P0pMOUvbhxRuSfZ09ofVK7hHvZ6BmP2jgsw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\images\pwrdLogo75.gif" size="1171">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RiqP+P0FGoEA6MbAhvSX5AVqzlsgtEeR9Kq5ZLAQpEg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\tcl\tk8.6\images\tai-ku.gif" size="5473">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5Tj49JNMpuHOKUFtKSFx8o5n2mxy7Z0ja6QvN0RepB4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Tools\pynche\html40colors.txt" size="262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Mp449TRql7wm+12ulLgDHAaIDNyGhkAz6jemrYB1yg0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Tools\pynche\namedcolors.txt" size="5816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UFzP2R3JUsM3NnJSbpZt3Nyp1fLfv4S4yK23vNGrjnY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Tools\pynche\webcolors.txt" size="3229">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PKxBH6bS6aNMDMYxMh5k1CrDeIQ0jtNYcryeYJxnM0Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Tools\pynche\websafe.txt" size="1966">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7EolFP92AZIlPXNuH1xm/+sO1ylyPwfXlRb7BrgwTsA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Tools\pynche\X\rgb.txt" size="18128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BZWiRu7aEoooF2pnFGNjXcHrPLR0pDGE8mEaJmNclJU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\Tools\pynche\X\xlicense.txt" size="1381">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lSMDWFZY1ZuXgsDKyKnZxbmdymDXdVJvyQUsToPmrjQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\App\Python\vcruntime140.dll" size="89752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v1/0YDVXyZWazsmVZT0FLZBUrUgm35Z5dO/S83fHI9E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\Console-Launcher.exe" size="93790">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>35wIzLpVr5NenyG9SW+MEpOItRurg5OBr/WHzP7sVB0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\how to use PIP.txt" size="690">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Uz9F8AP288lOyae3UXDJboB34qsfMpP+KOhNX2OhBHU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\IDLE-Launcher.exe" size="58088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sjk1IQ863K+DAGACeAQ28RA9kPsjOViyhQqJ499simE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\License.txt" size="169">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VskOXTt0kXMKu+2iR06kGmaYQDg9YaVvtFRyInBXeeY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\PyScripter-Launcher.exe" size="50431">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xPYFvLu3ZnoCoLLC+ZzOjcy1q+WuM6iNWp/qquSTHJY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\Python-Launcher.exe" size="58090">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KoIx8MA/RfGLscawPybMjWpr9CsAx85NjczEYKlFJ8A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\PythonW-Launcher64.exe" size="58200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BA504SvPoKuXmUu0HEl+Unuz/ugr266XwIkwYnDsGJA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\python\Readme.txt" size="211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Yr6QBWGpsYmm+iybb0XDOLxBHxaUvkCR8cJb4uVGH/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\reset.css" size="3441">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>f3bcWymyummxw8WknwYH9UQPcrIdnJGvdRALkNVsIzU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\senders_names.txt" size="18">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tLorZPUPUFz7iZFkHQQ/Uk02aDZGhyCt3IMGjYTpyOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\sfondo.png" size="2819933">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kKCzPePFwFUymd1Dloy0vnyu5vddYTXWVZySAUhYoZE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\test.txt" size="61">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iojhUgbDooGCSEGA1JZRB10VBetGsS7Lxfq2+5cymnY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\user.png" size="99803">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iOacXIAELg2UE8e2hTqDe2j5+eePn3VRXD+LZFHIXzY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\validate.js" size="21652">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gG4NueXFjg+zIWhy82tXfAX9hcEy0oV+/9aL9hfJOyA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vendor\bootstrap\css\bootstrap.css" size="146010">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fmMNkMcjSw3xcp9iuPnku/ryk9kaWgrEbfJfKmdZ45o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vendor\bootstrap\css\bootstrap.min.css" size="121200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" size="108738">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vendor\bootstrap\js\bootstrap.js" size="69707">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cr6N6zNN4bp0OwTQOZ6Z66M2r+2dpy/EwKMCyZ+SOMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vendor\bootstrap\js\bootstrap.min.js" size="37045">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vendor\font-awesome\css\font-awesome.css" size="35134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uXf0U0UCIqBp2J3S53b28h+fpC9uFcA8f+b/NNmiwVk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vendor\font-awesome\css\font-awesome.min.css" size="29063">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vendor\font-awesome\fonts\fontawesome-webfont.svg" size="391622">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jjWGOJu0zQGz+FuztiJzm95mJ/KLumOgIMIjypzxua4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vendor\jquery\jquery.js" size="293430">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vendor\jquery\jquery.min.js" size="97163">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="send\vis-network.min.js" size="720684">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0LkUF2iNXDHkN5vZL/fiY+DJdG2DRv4DpSCne1QzjOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Elenco delle versioni di Windows in cui è stata testata questa applicazione e
+           per cui è stato previsto l'uso. Rimuovere il commento dagli elementi appropriati per
+           fare in modo che Windows selezioni automaticamente l'ambiente più compatibile. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=PC-JACK\gieck" issuerKeyHash="aa9c491353ce98bd3af4b889e36707da3e9d36ca" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>z3UUkWmiRSI39iW8O42GCB1ee1Hv877saN5zm1qdEc8=</DigestValue></Reference></SignedInfo><SignatureValue>NCM0dPIl79VEcQIGS4AcUzcD84Zft0tQUfop4JON8p/ugjVxXkm+Xi1Ktx3CuXWMnRVOYTg2XuTGz03oqL2Ma3b0R0DaNq/U9cKdxK+kLqxYBM/SYDsFTpL72zViShnVp0fJAPYKPNYI8sQjvJBH+Vsqc6VhnWsxrdAFDY47ZNE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uxRvar5ssA5++iiPQXa/mLmLVxMLob/B+1Q8aFtntj/tGVJ5J3vhcb8bneKN6JS2YXdzF/LM/3ZpwJyf8TbmLgo0Fzin+daQutnUDwK8hEe5mCKgaDrLw4WbwlC+SSltAVPIUbb3xOtGz28hNI2+RcQ4Az2J/7+5xjrxr81NZDk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cf119d5a9b73de68ecbef3ef517b5e1d08868d3bbc25f6372245a269911475cf" Description="" Url=""><as:assemblyIdentity name="Network.exe" version="1.0.2.4" publicKeyToken="94fde86f99b38258" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC-JACK\gieck</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8YhtvRKq/NaFJpQmLbraLhSP3ndtBLH+uC+eG6bFUZk=</DigestValue></Reference></SignedInfo><SignatureValue>FUDq7rvLfS68V7kTRBd82REID4ObwmpFT5heG2Q+1dDugXnjZ+GyPcXkf1OIqIl8j84D0fB1M3NsTU0333ppZAQgwEG4fcoksPLNoigFK5E5a85whdFYW4QDhbk1nSTjTNdL5F6c3eA3NRIYgDV48GpLnOfLfUjEzxGAj0q9sm4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uxRvar5ssA5++iiPQXa/mLmLVxMLob/B+1Q8aFtntj/tGVJ5J3vhcb8bneKN6JS2YXdzF/LM/3ZpwJyf8TbmLgo0Fzin+daQutnUDwK8hEe5mCKgaDrLw4WbwlC+SSltAVPIUbb3xOtGz28hNI2+RcQ4Az2J/7+5xjrxr81NZDk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQfFa3YhEp5JdNABNC/xsNZzANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAUABDAC0ASgBBAEMASwBcAGcAaQBlAGMAazAeFw0yMDA5MTUwODEwMjlaFw0yMTA5MTUxNDEwMjlaMCUxIzAhBgNVBAMeGgBQAEMALQBKAEEAQwBLAFwAZwBpAGUAYwBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7FG9qvmywDn76KI9Bdr+YuYtXEwuhv8H7VDxoW2e2P+0ZUnkne+Fxvxud4o3olLZhd3MX8sz/dmnAnJ/xNuYuCjQXOKf51pC62dQPAryER7mYIqBoOsvDhZvCUL5JKW0BU8hRtvfE60bPbyE0jb5FxDgDPYn/v7nGOvGvzU1kOQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABdnL9h6NvpYyY1+fR6sJmkdI+2g4uAi1wSSR1HLxrgNimtnK/HjuvmusmH8xpz2RkaPqzS+0SRaF1kj8N/XkvkOEq5etZjwR8Q9sWn1PTaFwzQPs8NhF+qiFFc5SsfrgtH15ZUSX/vIHWvdz3FWkoDEPUNrHJ2talNKDwOH1EZp</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
